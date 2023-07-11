@@ -1,0 +1,1 @@
+sqlite3 blurtsql.sqlite3 < blurtsql.sqlite3.sql
