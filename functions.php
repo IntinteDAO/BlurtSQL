@@ -39,7 +39,7 @@ function last_known_block() {
     global $node;
     $retryCount = 0;
     
-    while ($retryCount < 3) {
+    while ($retryCount < 10) {
         $data = array(
             'jsonrpc' => '2.0',
             'method' => 'condenser_api.get_dynamic_global_properties',
